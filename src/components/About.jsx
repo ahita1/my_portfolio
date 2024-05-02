@@ -51,7 +51,7 @@ const About = () => {
         JavaScript and Python, and expertise in frameworks and Libraries like Vue.js , React, Node.js, Express.JS , Django and
         Three.js. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to turn your vision to a reality
+        real-world problems. Let's work together to turn your vision into a reality
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
