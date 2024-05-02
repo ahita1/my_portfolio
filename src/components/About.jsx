@@ -39,19 +39,19 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>About Me</p>
+        <h2 className={styles.sectionHeadText}>You Wanna know about me🙊</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled Full-stack Website Developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like Vue.js , React, Node.js, Django and
+        I'm a skilled Full-stack Website Developer with experience in TypeScript ,
+        JavaScript and Python, and expertise in frameworks and Libraries like Vue.js , React, Node.js, Express.JS , Django and
         Three.js. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        real-world problems. Let's work together to turn your vision to a reality
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

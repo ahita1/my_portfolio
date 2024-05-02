@@ -18,8 +18,11 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Ahunem</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I i'm a full-stack website developer <br className='sm:block hidden' />
+          <h1 className="text-3xl">
+            Nick Name <span className='text-[#915EFF]'>Ahita</span>
+          </h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 mb-7`}>
+            I'm a full-stack website developer <br className='sm:block hidden' />
             I can develop a fully fledged Pixel perfect Functional website
           </p>
         </div>
@@ -27,9 +30,9 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center '>
         <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 '>
             <motion.div
               animate={{
                 y: [0, 24, 0],
