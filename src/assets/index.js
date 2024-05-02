@@ -29,10 +29,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import carTrip from "./cartrip.png";
+import GameHub from "./gamehub.png";
 
 export {
   logo,
   backend,
+  carTrip,
+  GameHub,
   creator,
   mobile,
   web,

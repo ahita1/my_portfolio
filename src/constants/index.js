@@ -22,6 +22,8 @@ import {
   carrent,
   jobit,
   tripguide,
+  GameHub,
+  carTrip,
   threejs,
 } from "../assets";
 
@@ -54,7 +56,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Figma Designer",
+    title: "Vue.Js Developer",
     icon: creator,
   },
 ];
@@ -117,10 +119,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "SantimPay",
+    company_name: "Freelancing",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2020 - present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -130,10 +132,10 @@ const experiences = [
   },
   {
     title: "Flutter Developer",
-    company_name: "SantimPay",
+    company_name: "Freelancing",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2021 - Feb 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,11 +144,11 @@ const experiences = [
     ],
   },
   {
-    title: "Back-end",
+    title: "Back-end Developer",
     company_name: "SantimPay",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2021 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -156,7 +158,7 @@ const experiences = [
   },
   {
     title: "Vue.js",
-    company_name: "Upwork and On Individual Projects",
+    company_name: "On Upwork and On Individual Projects",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
@@ -207,49 +209,63 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: carTrip,
+    source_code_link: "https://github.com/ahita1/Car-trip-website-Nuxt3",
   },
   {
     name: "GameHub",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more.",
     tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.JS",
+        color: "blue-text-gradient",
+      },
       {
         name: "GameHub website",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Online Free Movie Api",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Chakra UI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: GameHub,
+    source_code_link: "https://github.com/ahita1/Ahita-Soll-Game-list",
   },
+
+
   {
     name: "Booking website",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "Nuxt.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Express.js",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +274,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ahita1",
   },
 ];
 
